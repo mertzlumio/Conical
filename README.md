@@ -15,7 +15,7 @@ The game uses an authoritative server for reliable game state and UDP networking
 - dkjson: https://github.com/LuaDist/dkjson
 ---
 
-## 📦 Installation
+## 📦 Installation & Running
 
 1. Install **Love2D** for your OS:
    - **Linux:**  
@@ -28,19 +28,16 @@ The game uses an authoritative server for reliable game state and UDP networking
 2. Clone this repository:
    ```bash
    git clone https://github.com/mertzlumio/Conical.git
- ```
----
+   ```
 
-## Running
-
-1.Start the Server:
+3. Start the Server:
      ```bash
      cd server
      love .
      ```
-2.Start the Client(s):
+4.Start the Client(s):
      ```bash
      cd client
      love .
      ```
-3.Enter the ip of the server, good to go!
+3.Enter the IP of the server, good to go!
