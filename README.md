@@ -28,15 +28,19 @@ The game uses an authoritative server for reliable game state and UDP networking
 2. Clone this repository:
    ```bash
    git clone https://github.com/mertzlumio/Conical.git
-   ```
-Start the Server:
+ ```
+---
+
+## Running
+
+1.Start the Server:
      ```bash
      cd server
      love .
      ```
-Start the Client(s):
+2.Start the Client(s):
      ```bash
      cd client
      love .
      ```
-er the ip of the server, good to go!
+3.Enter the ip of the server, good to go!
