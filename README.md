@@ -31,13 +31,15 @@ The game uses an authoritative server for reliable game state and UDP networking
    ```
 
 3. Start the Server:
-     ```bash
-     cd server
-     love .
-     ```
-4.Start the Client(s):
-     ```bash
-     cd client
-     love .
-     ```
-3.Enter the IP of the server, good to go!
+   ```bash
+   cd server
+   love .
+   ```
+   
+4. Start the Client(s):
+   ```bash
+   cd client
+   love .
+   ```
+   
+5. Enter the IP of the server, good to go!
